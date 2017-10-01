@@ -1,0 +1,11 @@
+\(CASE WHEN (.+?version)='FL16' THEN 'FL16' WHEN .+?version='FLF16' THEN 'FL16' ELSE .+?version END\)  
+
+
+\(CASE WHEN \1='FL16' THEN 'FL16' WHEN \1='FLF16' THEN 'FL16' WHEN \1='FL16A' THEN 'FL16' WHEN \1='TL16' THEN 'FL16' ELSE \1 END\)
+
+
+
+
+
+
+
